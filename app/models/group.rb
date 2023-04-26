@@ -1,5 +1,5 @@
 class Group < ApplicationRecord
-  belongs_to :entity
+  has_and_belongs_to_many :entity
   belongs_to :user
 
   validates :name, presence: true

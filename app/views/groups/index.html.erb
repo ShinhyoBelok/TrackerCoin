@@ -1,14 +1,12 @@
-<p style="color: green"><%= notice %></p>
-
-<h1>Groups</h1>
+<h1>Categories</h1>
 
 <div id="groups">
   <% @groups.each do |group| %>
     <%= render group %>
     <p>
-      <%= link_to "Show this group", group %>
+      <%= link_to "Transactions", entities_path %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New group", new_group_path %>
+<%= button_to "New Category", new_group_path, method: :get %>

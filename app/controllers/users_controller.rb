@@ -23,6 +23,10 @@ class UsersController < ApplicationController
   # POST /users or /users.json
   def create
     @user = User.new(user_params)
+    if @user.photo == nil || @user.photo == ""
+      @user.photo = "https://cdn3.iconfinder.com/data/icons/avatars-flat/33/man_5-512.png"
+      @user.save
+    end
 
     respond_to do |format|
       if @user.save
