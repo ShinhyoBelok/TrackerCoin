@@ -18,11 +18,28 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f5f6f8;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
 .splash_container {
     display: grid;
     grid-template-columns: repeat(1);
     grid-template-rows: repeat(5, auto);
     height: 98vh;
+    padding: 0.8rem;
 }
 
 .splash_container h1 {
@@ -41,8 +58,6 @@
     box-sizing: border-box;
     padding: 1rem;
     margin-bottom: 0.2rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
     width: 100%;
 }
 
@@ -61,4 +76,50 @@
     background-color: white;
     border: none;
     color: #86898e;
+}
+
+.login_nav {
+    background-color: #326fb2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+}
+
+.login_nav h3 {
+    font-weight: 300;
+}
+
+.login_nav img {
+    filter: invert(100%);
+    width: 2.5rem;
+}
+
+.field_login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.field_login input {
+    padding: 0.5rem;
+    border: 1px solid #a6abaf;
+}
+
+.actions_login input {
+    border: none;
+    background-color: #326fb2;
+    color: white;
+}
+
+.forgot_pass_login {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.forgot_pass_login a {
+    text-decoration: none;
+    color: #a6abaf;
+    font-size: 0.8rem;
 }
