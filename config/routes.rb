@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  root to: "splash_screen#index"
+  root to: "entities#index"
+  get "/splash_screen", to: "splash_screen#index"
   resources :groups
   resources :entities
   resources :users

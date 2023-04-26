@@ -73,7 +73,7 @@ h1, h2, h3 {
 }
 
 .signup {
-    background-color: white;
+    background-color: #f5f6f8;
     border: none;
     color: #86898e;
 }
@@ -122,4 +122,24 @@ h1, h2, h3 {
     text-decoration: none;
     color: #a6abaf;
     font-size: 0.8rem;
+}
+
+.signup_nav {
+    background-color: #326fb2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    color: white;
+}
+
+.field_signup {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.field_signup input {
+    padding: 0.5rem;
+    border: 1px solid #a6abaf;
 }
