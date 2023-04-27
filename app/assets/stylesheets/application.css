@@ -203,3 +203,32 @@ a {
     padding: 0.3rem;
     color: white;
 }
+
+.btn_container input {
+    background-color: #326fb2;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem;
+    color: white;
+}
+
+.center_nav {
+    background-color: #3878c2;
+    height: 3.5rem;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.empty {
+    width: 3rem;
+}
+
+.to_white {
+    filter: invert(100%);
+}
+
+.margin_top {
+    margin-top: 1rem;
+}

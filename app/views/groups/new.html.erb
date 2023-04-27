@@ -1,9 +1,8 @@
-<h1>New Category</h1>
-
+<nav class="center_nav">
+  <%= link_to root_path do %>
+    <img src="https://img.icons8.com/sf-regular-filled/48/000000/left.png" alt="back arrow" class="to_white">
+  <% end %>
+  <h1>NEW CATEGORY</h1>
+  <div class="empty"></div>
+</nav>
 <%= render "form", group: @group %>
-
-<br>
-
-<div>
-  <%= link_to "Back to groups", groups_path %>
-</div>

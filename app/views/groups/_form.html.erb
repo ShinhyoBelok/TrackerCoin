@@ -11,12 +11,12 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.text_field :name, placeholder: "Name" %>
-    <%= form.text_field :icon, placeholder: "Icon" %>
+  <div class="field_signup">
+    <%= form.text_field :name, placeholder: "Name", required: true %>
+    <%= form.text_field :icon, placeholder: "Icon", required: true %>
   </div>
 
-  <div>
-    <%= form.submit %>
+  <div class="btn_container margin_top" >
+    <%= form.submit 'Save' %>
   </div>
 <% end %>
