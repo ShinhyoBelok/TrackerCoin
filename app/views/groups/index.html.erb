@@ -6,7 +6,7 @@
 
 <div id="groups">
   <% @groups.each do |group| %>
-    <%= link_to entities_path do %>
+    <%= link_to group_entities_path(group) do %>
       <%= render group %>
     <% end %>
   <% end %>

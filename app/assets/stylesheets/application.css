@@ -232,3 +232,44 @@ a {
 .margin_top {
     margin-top: 1rem;
 }
+
+.flex_row {
+    display: flex;
+}
+
+.white_block {
+    background-color: white;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#entities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.transaction_card {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 93vw;
+}
+
+.date {
+    color: #b3b4b8;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    gap: 0.3rem;
+}
+
+.date img {
+    width: 1.2rem;
+}
+
+.tran_head {
+    justify-content: space-between;
+}

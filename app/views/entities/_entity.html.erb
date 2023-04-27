@@ -1,17 +1,7 @@
-<div id="<%= dom_id entity %>">
-  <p>
-    <strong>User:</strong>
-    <%= entity.user_id %>
-  </p>
-
-  <p>
-    <strong>Name:</strong>
-    <%= entity.name %>
-  </p>
-
-  <p>
-    <strong>Amount:</strong>
-    <%= entity.amount %>
-  </p>
-
-</div>
+<article class="transaction_card">
+  <div class="tran_head flex_row">
+    <p class="total_amount"><%= entity.name %> #<%= entity.id %></p>
+    <div class="total_amount">$<%= entity.amount %></div>
+  </div>
+  <div class="date flex_row"><img src="https://img.icons8.com/ios/50/000000/calendar--v1.png"/> <%= entity.created_at %></div>
+</article>
