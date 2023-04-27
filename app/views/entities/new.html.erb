@@ -1,9 +1,8 @@
-<h1>New entity</h1>
-
+<nav class="center_nav">
+  <%= link_to group_entities_path(params[:group_id]) do %>
+    <img src="https://img.icons8.com/sf-regular-filled/48/000000/left.png" alt="back arrow" class="to_white">
+  <% end %>
+  <h1>NEW TRANSACTION</h1>
+  <div class="empty"></div>
+</nav>
 <%= render "form", entity: @entity %>
-
-<br>
-
-<div>
-  <%= link_to "Back to entities", group_entities_path(params[:group_id]) %>
-</div>
