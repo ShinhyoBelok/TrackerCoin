@@ -14,6 +14,7 @@ class EntitiesController < ApplicationController
   # GET /entities/new
   def new
     @entity = Entity.new
+    @categories = Group.all
   end
 
   # GET /entities/1/edit
@@ -24,7 +25,13 @@ class EntitiesController < ApplicationController
   def create
     @entity = Entity.new(entity_params)
     @entity.user_id = current_user.id
-    
+    if @category_ids = params[:category_ids]
+      @entity.group = Group.where(id: @category_ids)
+    else
+      return
+    end
+
+
     respond_to do |format|
       if @entity.save
         format.html { redirect_to entity_url(@entity), notice: "Entity was successfully created." }
