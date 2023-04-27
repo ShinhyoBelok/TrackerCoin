@@ -164,6 +164,7 @@ a {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
+    gap: 0.6rem;
 }
 
 .category_card {
