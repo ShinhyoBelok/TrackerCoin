@@ -1,9 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe 'category/index.html.erb', type: :feature do
-
   before(:each) do
-    visit "/splash_screen"
+    visit '/splash_screen'
   end
 
   it 'Shows the logo name' do

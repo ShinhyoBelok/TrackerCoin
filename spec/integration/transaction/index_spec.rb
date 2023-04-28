@@ -6,7 +6,7 @@ RSpec.describe 'category/index.html.erb', type: :feature do
   let(:user) { User.create(name: 'Jinx', email: 'test@example.com', password: '12345678') }
   before(:each) do
     sign_in user
-    @category = Group.create(name: 'food', icon: 'https://img.icons8.com/color/48/null/kawaii-bread-1.png', user:) 
+    @category = Group.create(name: 'food', icon: 'https://img.icons8.com/color/48/null/kawaii-bread-1.png', user:)
     @transaction = Entity.create(name: 'sells', amount: 22, user:)
     @transaction.group = [@category]
     @transaction2 = Entity.create(name: 'purchase', amount: 33, user:)

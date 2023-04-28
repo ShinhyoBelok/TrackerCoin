@@ -6,7 +6,7 @@ RSpec.describe 'category/index.html.erb', type: :feature do
   let(:user) { User.create(name: 'Jinx', email: 'test@example.com', password: '12345678') }
   before(:each) do
     sign_in user
-    @category = Group.create(name: 'food', icon: 'https://img.icons8.com/color/48/null/kawaii-bread-1.png', user:) 
+    @category = Group.create(name: 'food', icon: 'https://img.icons8.com/color/48/null/kawaii-bread-1.png', user:)
     @category2 = Group.create(name: 'sells', icon: 'https://img.icons8.com/color/48/null/kawaii-bread-1.png', user:)
     visit groups_path
   end
