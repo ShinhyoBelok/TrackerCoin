@@ -18,7 +18,7 @@ class EntitiesController < ApplicationController
   # GET /entities/new
   def new
     @entity = Entity.new
-    @categories = Group.all
+    @categories = Group.all.where(user_id: current_user.id)
   end
 
   # GET /entities/1/edit
