@@ -22,7 +22,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -55,7 +55,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://trackercoin.onrender.com)
+- [Video Demo Link](https://drive.google.com/file/d/1e5_s2kyaM1QWkKI5SBnCmcW9ypKatr71/view?usp=sharing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +101,12 @@ To run the project run the command:
   rails server
 ```
 
-### Deployment
+<!-- ### Deployment
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can see the deploy app in this link:
+- [Live Demo Link](https://trackercoin.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- AUTHORS -->
 
