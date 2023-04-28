@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="https://img.icons8.com/color/48/null/coins.png" alt="logo" width="220"  height="auto" />
+  <img src="https://img.icons8.com/color/48/null/coins.png" alt="logo" width="110"  height="auto" />
   <h1><b>TrackerCoin</b></h1>
 
 </div>

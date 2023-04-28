@@ -85,6 +85,4 @@ test:
 #
 production:
   <<: *default
-  database: TrackerCoin_production
-  username: TrackerCoin
-  password: <%= ENV["TRACKERCOIN_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
