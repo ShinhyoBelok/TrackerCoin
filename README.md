@@ -2,8 +2,8 @@
 
 <div align="center">
 
-  <img src="https://www.inventicons.com/uploads/iconset/1207/wm/512/stove-baked-oven-foodrestaurant-toolsutensils-baking-cupcakes-94.png" alt="logo" width="220"  height="auto" />
-  <h1><b>BigOven</b></h1>
+  <img src="https://img.icons8.com/color/48/null/coins.png" alt="logo" width="220"  height="auto" />
+  <h1><b>TrackerCoin</b></h1>
 
 </div>
 
@@ -15,14 +15,14 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -33,30 +33,31 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 BigOven <a name="about-project"></a>
+# 📖 TrackerCoin <a name="about-project"></a>
 
-**BigOven** is a ruby on rails app that help you save your favorites recipes and let you keep track of your food inventory by adding the food in the app, When you want to cook a recipe you can generate a shopping list to see what you missing to be able to do that recipe.
+**TrackerCoin** is a Ruby on Rails application that allows you to easily track your transactions and keep them organized by category. The app stores all data separately for each user, ensuring privacy and security.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 - `Ruby on Rails`
+- `psql`
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Show the list saved food and quantity. 
-- Generate shopping list for a given recipe.
-- Save favorites recipes.
-- Public recipes.
+- User authentication: Users can sign up, sign in, and sign out to access their own unique data.
+- Transaction tracking: Users can log transactions with names, amounts, and categories to track their spending.
+- Category management: Users can create, view, edit, and delete categories for organizing their transactions.
+- Transaction history: Users can view a history of all their transactions, filtered by category and/or date range.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]() Working on it.
+- [Live Demo Link]()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -78,7 +79,7 @@ $ ruby --version && gem --version
 ```
 ### Setup
 
-Clone the repository using [this link](https://github.com/ShinhyoBelok/BigOven.git).
+Clone the repository using [this link](https://github.com/ShinhyoBelok/TrackerCoin.git).
 
 ### Install
 
@@ -99,13 +100,13 @@ To run the project run the command:
   rails server
 ```
 
-<!-- ### Deployment
+### Deployment
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
 👤 **Shinhyo Belliard**
 
@@ -113,20 +114,13 @@ To run the project run the command:
 - Twitter: [@Bell_iraki](https://twitter.com/Bell_iraki)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/shinhyo-belliard-okazaki-807a38249/)
 
-👤 **Glenda Diaz**
-
-- GitHub: [@gjuliao](https://github.com/Gdiazdiaz)
-- LinkedIn: [Glenda Diaz](www.linkedin.com/in/glendadiazz)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Food inventory list**
-- [ ] **Food inventory detail**
-- [ ] **Inventory shopping list**
-- [ ] **Better UX when adding foods to a recipe**
+- [] **Implement some UX improvements: include transitions and/or animations, etc.**
+- [] **Decent desktop design for the webapp.**
+- [] **Implement the left side menu to improve the navigability of the app.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,6 +147,8 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 Authors would like to thank:
+
+- I would like to thank Gregoire Vella, the original designer of the project.
 - [Microverse](https://www.microverse.org/)
 - Code Reviewers
 - Coding Partners
