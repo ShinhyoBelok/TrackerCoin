@@ -32,9 +32,6 @@ class EntitiesController < ApplicationController
 
     @entity.group = Group.where(id: @category_ids)
 
-
-
-
     respond_to do |format|
       if @entity.save
         format.html { redirect_to group_entities_url(params[:group_id]) }
