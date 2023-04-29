@@ -1,0 +1,16 @@
+<nav class="category_nav">
+  <img src="https://img.icons8.com/ios-filled/50/null/menu--v1.png" alt="menu bar" />
+  <h1>CATEGORY</h1>
+  <img src="https://img.icons8.com/ios/50/null/search--v1.png"/>
+</nav>
+
+<div id="groups">
+  <% @groups.each do |group| %>
+    <%= link_to group_entities_path(group) do %>
+      <%= render group %>
+    <% end %>
+  <% end %>
+</div>
+<div class="btn_container">
+  <%= button_to "New Category", new_group_path, method: :get %>
+</div>

@@ -1,0 +1,19 @@
+<nav class="category_nav">
+  <%= link_to root_path do %>
+    <img src="https://img.icons8.com/sf-regular-filled/48/000000/left.png" alt="back arrow" class="to_white">
+  <% end %>
+  <h1>TRANSACTION</h1>
+  <img src="https://img.icons8.com/ios/50/null/search--v1.png"/>
+</nav>
+<div class="flex_row white_block">
+  <div>Total:</div>
+  <div class="total_amount">$<%= @total %></div>
+</div>
+<div id="entities">
+  <% @entities.each do |entity| %>
+    <%= render entity %>
+  <% end %>
+</div>
+<div class="btn_container">
+  <%= button_to "New transaction", new_group_entity_path, method: :get %>
+</div>

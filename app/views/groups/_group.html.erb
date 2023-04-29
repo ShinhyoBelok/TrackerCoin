@@ -1,0 +1,11 @@
+<div class="category_card">
+  <div class="icon_name_div">
+    <img src="<%= group.icon %>" alt="Icon">
+    <%= group.name %>
+  </div>
+  <% total = 0 %>
+  <% group.entity.each do |entity| %>
+    <% total += entity.amount %>
+  <% end %>
+  <div class="total_amount">$<%= total %></div>
+</div>

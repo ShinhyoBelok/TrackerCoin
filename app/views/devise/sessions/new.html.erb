@@ -1,0 +1,21 @@
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <nav class="login_nav">
+    <%= link_to "/splash_screen" do %>
+      <img src="https://img.icons8.com/sf-regular-filled/48/000000/left.png" alt="back arrow">
+    <% end %>
+    <h3>LOGIN</h3>
+    <div class="actions_login">
+      <%= f.submit "Log in" %>
+    </div>
+  </nav>
+
+  <div class="field_login">
+    <%= f.email_field :email, autocomplete: "email", placeholder: "Email" %>
+    <%= f.password_field :password, autocomplete: "current-password", placeholder: "Password" %>
+  </div>
+<% end %>
+<div class="forgot_pass_login">
+  <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+    <%= link_to "Forgot your password?", new_password_path(resource_name) %>
+  <% end %>
+</div>
