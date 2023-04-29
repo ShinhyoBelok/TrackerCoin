@@ -152,7 +152,7 @@ Give a ⭐️ if you like this project!
 
 Authors would like to thank:
 
-- I would like to thank Gregoire Vella, the original designer of the project.
+- I would like to thank [Gregoire Vella](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=), the original designer of the project.
 - [Microverse](https://www.microverse.org/)
 - Code Reviewers
 - Coding Partners
