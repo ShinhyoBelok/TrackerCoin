@@ -1,0 +1,22 @@
+.buttons_register {
+  grid-row-start: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons_register button{
+  box-sizing: border-box;
+  padding: 1rem;
+  margin-bottom: 0.2rem;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .buttons_register button{
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 0.2rem;
+    width: 40vw;
+  }
+}

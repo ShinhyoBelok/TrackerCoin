@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
+@import "./splash_screen.css";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
@@ -46,7 +46,7 @@ a {
   font-size: 3rem;
 }
 
-.buttons {
+/* .buttons {
   grid-row-start: 5;
   display: flex;
   flex-direction: column;
@@ -57,7 +57,7 @@ a {
   padding: 1rem;
   margin-bottom: 0.2rem;
   width: 100%;
-}
+} */
 
 .logo_text {
   font-family: 'Dancing Script', sans-serif;
