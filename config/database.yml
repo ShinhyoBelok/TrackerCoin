@@ -23,10 +23,10 @@ default: &default
 
 development:
   <<: *default
-  url: postgresql://trackcoin:passtc2022@localhost/trackercoin
-  # database: trackercoin
-  # username: trackcoin
-  # password: passtc2022
+  # url: postgresql://trackcoin:passtc2022@localhost/trackercoin
+  database: TrackerCoin_development
+  username: hellorails
+  password: psqlhellorailspass123
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
